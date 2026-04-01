@@ -26,33 +26,32 @@ console.log(`${saudacao} Sr ${nome} tenha um bom dia!`);
 
 
 
-/* Equipe 3. Fazer uma compra online
-Analogia: A compra só é finalizada se tiver saldo no cartão E o endereço de entrega estiver preenchido. */
+/* Equipe 4. Dirigir um carro Analogia: Você só pode dirigir se estiver com a CNH válida E o carro estiver com documento em dia.*/
 
 //AND 
-let SaldoNoCartao = true;
-let EnderecoPreenchido = true;
-if(SaldoNoCartao && EnderecoPreenchido){
-    console.log("compra realizada com sucesso!");
+let CNHvalida = true;
+let CarroEmDia = true;
+if(CNHvalida && CarroEmDia){
+    console.log("você pode dirigir");
 }else{
-    console.log("compra não realizada!");
+    console.log("você não pode dirigir");
 }
 //OR
-let saldonocartao = true;
-let enderecopreenchido = false;
-if(saldonocartao || enderecopreenchido){
-    console.log("Compra Realizada Com Sucesso!");
+let cnhVALIDA = true;
+let carroEmDia = false;
+if(cnhVALIDA || carroEmDia){
+    console.log("Você pode Dirigir");
 }else{
-    console.log("Compra Não realizada!");
+    console.log("Você não pode dirigir");
 }
 
 //NOT
-let SaldocartaO = false;
-let EnderecopreenchidO = false;
-if(!SaldocartaO || Enderecopreenchido){
-    console.log("COMPRA REALIZADA!");
+let cnhValida  = false;
+let CarroemDia = false;
+if(!cnhValida || CarroemDia){
+    console.log("VOCÊ PODE DIGIRIR");
 }else{
-    console.log("compra não realizada")
+    console.log("VOCÊ NÃO PODE DIRIGIR")
 }
 
 
@@ -73,4 +72,4 @@ switch(nota){
             console.log("aluno não encontrado");
 }
 
-//Equipe 3: Rodrigo Campos. Blenda Kettlen e Gean Carlos.
+//Equipe 4: Rodrigo Campos. Blenda Kettlen e Gean Carlos.
